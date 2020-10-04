@@ -1,5 +1,5 @@
-(module C0805 (layer F.Cu) (tedit 5F714D14)
-  (descr "<b>Ceramic Chip Capacitor KEMET 0805 reflow solder</b><p>\nMetric Code Size 2012")
+(module C0805 (layer F.Cu) (tedit 5F79F4AB)
+  (descr "Multi-Layer Ceramic Chip Capacitor, 0805 (2012 metric) iron and air reflow solderable")
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference >NAME (at 0 -0.8) (layer F.SilkS)

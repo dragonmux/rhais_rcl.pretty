@@ -1,5 +1,5 @@
-(module R0805 (layer F.Cu) (tedit 5F70FB84)
-  (descr <b>RESISTOR</b><p>)
+(module R0805 (layer F.Cu) (tedit 5F79F400)
+  (descr "Ceramic Chip Resistor, 0805 (2012 metric) iron and air reflow solderable")
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference >NAME (at 0 -0.8) (layer F.SilkS)

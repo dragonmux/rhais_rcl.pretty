@@ -1,5 +1,5 @@
-(module R0603 (layer F.Cu) (tedit 5F70FB89)
-  (descr <b>RESISTOR</b>)
+(module R0603 (layer F.Cu) (tedit 5F79F411)
+  (descr "Ceramic Chip Resistor, 0603 (1608 metric) iron and air reflow solderable")
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference >NAME (at 0 -0.6) (layer F.SilkS)

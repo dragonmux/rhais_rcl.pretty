@@ -1,5 +1,5 @@
-(module R2512 (layer F.Cu) (tedit 5F712571)
-  (descr <b>RESISTOR</b>)
+(module R2512 (layer F.Cu) (tedit 5F79F427)
+  (descr "Ceramic Chip Resistor, 2512 (6332 metric) iron and air reflow solderable")
   (solder_mask_margin 0.05)
   (clearance 0.1)
   (fp_text reference >NAME (at 0 -1.8) (layer F.SilkS)
