@@ -1,7 +1,7 @@
 (footprint "C0201"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.9 0)
@@ -22,19 +22,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "159f9d19-2408-4e35-a755-5b57bccdbd56")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -67,8 +54,8 @@
 	(solder_mask_margin 0.05)
 	(attr smd)
 	(fp_line
-		(start -0.05 -0.1)
-		(end 0.05 -0.1)
+		(start 0 -0.1)
+		(end 0 -0.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -77,8 +64,8 @@
 		(uuid "4723d798-4085-47a2-bb3e-88c167f0192d")
 	)
 	(fp_line
-		(start -0.05 0.1)
-		(end 0.05 0.1)
+		(start 0 0.1)
+		(end 0 0.1)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -153,7 +140,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "d8819f70-6a92-49e4-98a9-2a1c2bdbdcf7")
 	)
@@ -164,24 +151,25 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "784ec293-c98f-4984-bdd1-ce005269eb62")
 	)
 	(pad "1" smd roundrect
 		(at -0.35 0)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8bf01d0b-6b5e-4e72-9f28-eaa9cb1ccc1a")
 	)
 	(pad "2" smd roundrect
 		(at 0.35 0)
 		(size 0.4 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "89e4f5f2-bb4b-4d49-ad80-aa7015c371ca")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
 		(offset
 			(xyz 0 0 0)
